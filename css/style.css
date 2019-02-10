@@ -1,5 +1,7 @@
 body{
   font-family: sans-serif;
+  background-color: black;
+  color: white;
 }
 
 .banner{
@@ -43,4 +45,5 @@ iframe{
   padding-top: 30px;
   padding-bottom: 30px;
   float: left;
+  padding-right: 10px;
 }
