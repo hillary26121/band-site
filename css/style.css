@@ -6,6 +6,7 @@ body{
 
 .banner{
   position: sticky;
+  z-index: 1000px;
   top: 0;
   left: 0;
   height: 300px;
@@ -13,7 +14,7 @@ body{
   background: url(http://images6.fanpop.com/image/photos/41400000/-NSYNC-boy-bands-41411532-1000-562.jpg) no-repeat fixed center;
   overflow: hidden;
   background-size: cover;
-  opacity: .7;
+
 }
 .banner h1{
   text-align: center;
@@ -46,4 +47,13 @@ iframe{
   padding-bottom: 30px;
   float: left;
   padding-right: 10px;
+}
+
+form{
+  background-color: black;
+}
+
+.container{
+  padding: 20px;
+  background-color: black;
 }
